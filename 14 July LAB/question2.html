@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App</title>
+</head>
+<body>
+    <div class="heading">
+        <h2>Create Account</h2>
+    </div>
+    <form action="./landing.html">
+    <fieldset>
+        <legend>Personal Details</legend>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname"><br><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="Male">
+            <label for="Male">Male</label>
+            <br>
+            <input type="radio" name="female">
+            <label for="Female">Female</label><br><br>
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone">
+            <label for="email">Email</label>
+            <input type="email" name="email"><br><br>
+            <label for="aadhar">Aadhar Number:</label>
+            <input type="text" name="aadhar" required><br><br>
+            <label for="aadhar-file">Upload Aadhar card(less than 10MB)</label><br>
+            <input type="file" name="aadhar-file"><br><br>
+            <label for="address">Address</label>
+            <br>
+            <textarea name="add" cols="30" rows="5"></textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Account Details</legend>
+        <label for="previous">Do you have any existing account in our bank?</label>
+        <select name="previous">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <br><br>
+        <label for="previous">Which type of account do you want to open</label>
+        <select name="previous">
+            <option value="savings">Savings</option>
+            <option value="FD">Fixed Deposit</option>
+            <option value="DMAT">DMAT</option>
+        </select>
+        <br><br>
+        <label for="pan">PAN Number</label>
+        <input type="text" name="pan" required>
+        <br><br>
+        <label for="details">Select if you have these</label><br>
+        <input type="checkbox" name="driver license">
+        <label for="driver license">Driver's License</label>
+        <br>
+        <input type="checkbox" name="Passport">
+        <label for="Passport">Passport</label>
+        <br><br>
+        <input type="submit" style="background-color: white; border: solid; width: 70px; height: 30px; border-width: 2px; border-radius: 10px; ">
+    </fieldset>
+</form>
+</body>
+</html>

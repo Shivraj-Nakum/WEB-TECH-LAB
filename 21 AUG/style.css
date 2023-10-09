@@ -1,0 +1,45 @@
+body{
+    background-image: url('https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTq7g8BV3cbc9CaipVCdLtE21wB2ZOj4XfpHTy9hxA4B7UWfIJsvyTvlW8SsRPydofFtcYC-4dFlqrrvHY');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: scroll;
+}
+
+.padding{
+    opacity: 0.5;
+    color: white;    
+    background-color: rgb(61, 125, 146);
+    border-style: double;
+    /* shorthand property top right bottom left */
+    padding: 10px 20px 50px 70px;
+}
+
+.margin{
+    border-style: dashed;
+    margin: 10px 20px 50px 70px;
+}
+
+.la{
+    text-align: left;
+    color: white;
+    text-decoration: overline;
+}
+
+.ca{
+    text-align: center;
+    color: white;
+    text-decoration: line-through;
+}
+
+.ra{
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+}
+
+.a{
+    color: white;
+    text-decoration-line: overline; 
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events Example</title>
+</head>
+<body>
+    <div id="mouse-events-demo" 
+         style="width: 200px; height: 200px; background-color: rgb(1, 195, 101);
+                text-align: center; line-height: 200px; cursor: pointer;"
+         onmouseover="mouseOver()"
+         onmouseout="mouseOut()"
+         onmousedown="mouseDown()"
+         onmouseup="mouseUp()"
+         onclick="mouseClick()">
+        Hover over, click, or hold the mouse button!
+    </div>
+
+    <script>
+        function mouseOver() {
+            document.getElementById("mouse-events-demo").style.backgroundColor = "lightgreen";
+        }
+
+        function mouseOut() {
+            document.getElementById("mouse-events-demo").style.backgroundColor = "lightblue";
+        }
+
+        function mouseDown() {
+            document.getElementById("mouse-events-demo").style.backgroundColor = "lightcoral";
+        }
+
+        function mouseUp() {
+            document.getElementById("mouse-events-demo").style.backgroundColor = "lightblue";
+        }
+
+        function mouseClick() {
+            alert("Mouse clicked!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.thead {
+  padding-top: 10px;
+  text-decoration: 1px underline black;
+  text-decoration: 1px underline overline black;
+}
+
+.css1 {
+  padding: 5px 0;
+  text-decoration: 1px underline dotted black;
+}
+
+.css2 {
+  padding: 5px 0;
+  padding-left: 20px;
+  text-decoration: 2px underline black;
+}
+
+.css3 {
+  padding: 5px 0;
+  padding-left: 40px;
+  text-decoration: 2px underline black;
+}
+
+.css4 {
+  padding: 5px 0;
+  padding-left: 60px;
+  text-decoration: 1px underline dotted black;
+}
+
+.box {
+  padding: 20px;
+  text-decoration: 2px underline wavy black;
+}
+
+.fonts {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.list li {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  list-style-image: url(./abc.png);
+  margin-bottom: 10px;
+}
+
+::marker {
+  color: red;
+  font-size: 20px;
+}
+
+::selection {
+  color: blue;
+}
+
+p::first-line {
+  color: green;
+  font-variant: small-caps;
+}
+
+p::first-letter {
+  color: magenta;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change h1 on Button Click</title>
+</head>
+<body>
+    <h1 id="heading">HELLO </h1>
+    <button onclick="changeHeading()">Change Heading</button>
+
+    <script>
+        function changeHeading() {
+            var headingElement = document.getElementById("heading");
+            if (headingElement) {
+                headingElement.innerText = "good bye";
+            }
+        }
+    </script>
+</body>
+</html>
